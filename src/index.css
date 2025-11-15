@@ -97,5 +97,14 @@
 
   body {
     @apply bg-background text-foreground;
+    font-family:
+      "Inter",
+      system-ui,
+      -apple-system,
+      sans-serif;
   }
+}
+
+.hover-scale {
+  @apply transition-transform duration-200 hover:scale-105;
 }
